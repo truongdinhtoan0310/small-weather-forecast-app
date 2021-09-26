@@ -1,0 +1,32 @@
+{
+  "name": "weather-forecast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "watch": "node-sass -w src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongdinhtoan0310/small-weather-forecast-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "weather-forecast"
+  ],
+  "author": "ken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truongdinhtoan0310/small-weather-forecast-app/issues"
+  },
+  "homepage": "https://github.com/truongdinhtoan0310/small-weather-forecast-app#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}
