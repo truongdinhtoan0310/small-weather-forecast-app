@@ -10,19 +10,27 @@ body {
     background-color: #5499C7  ;
     background:linear-gradient(rgba(0,0,0,0.63),rgba(0,0,0,0.5)), url("https://wallpapercave.com/wp/6Jl3Hjb.jpg") no-repeat center center/cover; 
 }
+.body {
+    position: relative;
+    left: 200px;
+    margin-bottom: 20px;
+    top: 100px;
+}
+
+
+header{
+    color:#17202A;
+    padding: 8px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
 footer{
     color:#17202A;
     padding: 8px 0;
-    margin-left: 1px;
-    margin-top: 16px;
-    margin-bottom: 0px;
-    position: relative;
-}
-
-header{
-    margin-top: 12px;
-    margin-bottom:38px;  
-
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 header a{
     color: #424949 ;
